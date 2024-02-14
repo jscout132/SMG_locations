@@ -1,3 +1,14 @@
 venv
 SMG_address_test.csv
 csv_test.py
+state_county_boundaries
+state_smg_addresses
+AL_build.csv
+AL_Census.xlsx
+AL_County_lines.geojson
+AL_racial_county_breakdown.csv
+AL_simplified_breakdown.csv
+gmap_api_geocoding.py
+SMG_address.csv
+tempCodeRunnerFile.py
+state_census
