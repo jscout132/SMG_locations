@@ -2,6 +2,7 @@ import pandas as pd
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 import time
+import re
 
 #setting col names from the csv with slightly shorter names
 col_names = [
