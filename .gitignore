@@ -12,5 +12,6 @@ gmap_api_geocoding.py
 SMG_address.csv
 tempCodeRunnerFile.py
 state_census
-
+county_file_updates.py
+lat_lon_creation.py
 .env
