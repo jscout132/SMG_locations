@@ -17,30 +17,7 @@
     <link rel="stylesheet" href="https://js.arcgis.com/4.28/esri/themes/light/main.css">
     <script src="https://js.arcgis.com/4.28/"></script>
 
-    <script>
-        require([
-          "esri/config", 
-          "esri/WebMap",
-          "esri/views/MapView", 
-          "esri/widgets/ScaleBar",
-          "esri/widgets/Legend"
-        ], function(esriConfig, WebMap, MapView, ScaleBar, Legend) {
-
-            esriConfig.apiKey = "{{arc_gis_api}}";
-            
-            const webmap = new WebMap({
-              portalItem: {
-                id: "{{map_id}}"
-              }
-            });
-
-            const view = new MapView({
-                map: webmap,
-                container: "viewDiv" // Div element
-            });
-
-        });
-    </script>
+    <script src="/static/script.js"></script>
 
   </head>
   <body>
