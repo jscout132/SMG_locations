@@ -15,3 +15,4 @@ state_census
 county_file_updates.py
 lat_lon_creation.py
 .env
+__pycache__
