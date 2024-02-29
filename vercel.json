@@ -5,12 +5,5 @@
             "src": "(.*)",
             "dest": "app.py"
         }
-    ],
-
-    "functions": {
-        "api/static/script.js": {
-            "memory": 1024,
-            "maxDuration": 10
-        }
-  }
+    ]
 }
