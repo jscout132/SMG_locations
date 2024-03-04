@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>SMG Activity Map</title>
+</head>
+<body style="margin: auto; width: 75%; padding: 10px;">
+    <div style="width: 100%;">
+        <p style="padding: 10px;">
+            <img src="../static/img/SMG_counties_final.png" alt="" style="width: 100%; display: block;">
+        </p>
+        <p>
+            This graphic was created for the Southern Coalition for Social Justice. Their 86 Southern Movement Grant recipients 
+            were asked to submit two reports, an interim halfway through and a final report at the end of the grant period. In 
+            their reports, grantees summarized their work and where it was completed. To create this map, a CSV of all of the 
+            grantee report responses was generated, run through a script in Python using the Geonames Cache library to collect 
+            the names of the counties and cities in which work was completed by state. Quality control and spot checking was 
+            completed to ensure accuracy.
+        </p>
+        <p>
+            Those lists were then added to mapchart.net to create a visualization of where in each of the 10 states work was 
+            completed. By using Geonames Cache and Python, the tediousness of reviewing 170+ reports was cut down significantly, 
+            enabling a quick turn around. This map graphic has been included in additional funding requests for the organization, 
+            strengthening their ability to secure future funding.
+        </p>
+
+        <p>
+            Due to the nature of these reports, it was decided to create a static, inactive map as opposed to a more dynamic version. 
+            Plans for future versions include additional interactivity such as clicking on each county to see which grantees 
+            completed work there and what sort of work was completed. 
+        </p>
+    </div>
+
+</body>    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

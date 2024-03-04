@@ -9,3 +9,6 @@ app.debug = False
 def home():
     return render_template('index.html')#, arc_gis_api=arc_gis_api, map_id=map_id)
 
+@app.route('/activity-map')
+def act_map():
+    return render_template('activity-map.html')
